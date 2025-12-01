@@ -4,8 +4,6 @@
 
 ---
 
-## TL;DR
-
 You (the students) will build a small **podcast-style audio streaming web app**:
 
 - Upload audio files
@@ -21,7 +19,6 @@ I’m only here to track progress and evaluate.
 
 ## Project Overview
 
-**Media Streaming Lite** is a teaching project for a 10-week professional course. 
 Your goal is to implement a minimal but realistic **audio streaming platform** suitable for a campus podcast:
 
 - Creators upload audio episodes (e.g. talks, lectures, student podcasts).
@@ -236,5 +233,6 @@ Use this as a **personal progress checklist**. You’re expected to drive all im
   - A **contract** for minimum and stretch goals.
   - A **living document**: you should update it as your implementation deviates, improves, or adds new features.
 
-If you’re not checking items off the checklist week by week, you’re off track. 
+If you’re not checking items off the checklist week by week, you’re off track.
+ 
 If you are checking them off and your app actually runs, you’re doing the work you’re supposed to be doing.
