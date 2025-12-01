@@ -1,0 +1,1 @@
+# Helper functions (e.g., range request handling)
