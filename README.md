@@ -32,7 +32,8 @@ The focus is on:
 - File handling and basic streaming logic.
 - Clean project organization and use of Git/GitHub.
 
-media-streaming-lite/
+```
+campuspodcastlite/
 │
 ├── README.md                # Project overview, setup instructions
 ├── requirements.txt         # Python dependencies (Flask, etc.)
@@ -64,7 +65,7 @@ media-streaming-lite/
 └── tests/                   # Unit tests (optional)
     ├── test_routes.py
     ├── test_utils.py
-    
+```
 ---
 
 ## Tech Stack
