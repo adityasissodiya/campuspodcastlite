@@ -1,1 +1,22 @@
-#Episode Listing
+{% extends "base.html" %}
+
+{% block content %}
+  <section class="card">
+    <h1>Episodes</h1>
+    {% if message %}
+      <div class="notice">{{ message }}</div>
+    {% endif %}
+    {% if files %}
+      <ul class="file-list">
+        {% for file in files %}
+          <li>
+            <span class="filename">{{ file }}</span>
+            <a class="button" href="{{ url_for('main.player', filename=file) }}">Play</a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p>No audio uploaded yet. <a href="{{ url_for('main.upload') }}">Upload one</a> to get started.</p>
+    {% endif %}
+  </section>
+{% endblock %}
